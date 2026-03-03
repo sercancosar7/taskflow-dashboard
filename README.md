@@ -1,6 +1,6 @@
 # TaskFlow – Real-Time Task Management Dashboard
 
-A modern, full-stack task management application with real-time collaboration features, Kanban boards, and team analytics.
+Real-time task management dashboard with analytics, team collaboration, and Kanban boards.
 
 🔗 **Live Demo:** [sercod.com/demos/taskflow](https://sercod.com/demos/taskflow/)
 
@@ -15,39 +15,22 @@ A modern, full-stack task management application with real-time collaboration fe
 
 ## Tech Stack
 
-**Frontend**
-- React 18 + TypeScript
-- Tailwind CSS
-- Socket.io Client
-- Recharts (analytics)
-
-**Backend**
-- Node.js + Express
-- PostgreSQL + Prisma ORM
-- Socket.io
-- JWT Authentication
+- **Frontend:** React + TypeScript
+- **Backend:** Node.js + Express
+- **Database:** PostgreSQL
+- **Real-time:** Socket.io
+- **Auth:** JWT
 
 ## Getting Started
 
 ```bash
-# Clone the repo
 git clone https://github.com/sercancosar7/taskflow-dashboard.git
 cd taskflow-dashboard
-
-# Install dependencies
 npm install
-
-# Set up environment variables
 cp .env.example .env
-
-# Run development server
 npm run dev
 ```
 
-## Screenshots
-
-![TaskFlow Dashboard](https://sercod.com/demos/taskflow/)
-
 ## License
 
-MIT
+MIT – see [LICENSE](./LICENSE)
